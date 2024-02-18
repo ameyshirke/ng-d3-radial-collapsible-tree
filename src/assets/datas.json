@@ -1,0 +1,141 @@
+{
+  "name": "flare",
+  "children": [
+    {
+      "name": "animate",
+      "children": [
+        {
+          "name": "Easing",
+          "size": 17010
+        },
+        {
+          "name": "FunctionSequence",
+          "size": 5842
+        },
+        {
+          "name": "ISchedulable",
+          "size": 1041
+        },
+        {
+          "name": "Parallel",
+          "size": 5176
+        },
+        {
+          "name": "Pause",
+          "size": 449
+        },
+        {
+          "name": "Scheduler",
+          "size": 5593
+        },
+        {
+          "name": "Sequence",
+          "size": 5534
+        },
+        {
+          "name": "Transition",
+          "size": 9201
+        },
+        {
+          "name": "Transitioner",
+          "size": 19975
+        },
+        {
+          "name": "TransitionEvent",
+          "size": 1116
+        },
+        {
+          "name": "Tween",
+          "size": 6006
+        }
+      ]
+    },
+    {
+      "name": "data",
+      "children": [
+        {
+          "name": "DataField",
+          "size": 1759
+        },
+        {
+          "name": "DataSchema",
+          "size": 2165
+        },
+        {
+          "name": "DataSet",
+          "size": 586
+        },
+        {
+          "name": "DataSource",
+          "size": 3331
+        },
+        {
+          "name": "DataTable",
+          "size": 772
+        },
+        {
+          "name": "DataUtil",
+          "size": 3322
+        }
+      ]
+    },
+    {
+      "name": "display",
+      "children": [
+        {
+          "name": "DirtySprite",
+          "size": 8833
+        },
+        {
+          "name": "LineSprite",
+          "size": 1732
+        },
+        {
+          "name": "RectSprite",
+          "size": 3623
+        },
+        {
+          "name": "TextSprite",
+          "size": 10066
+        }
+      ]
+    },
+    {
+      "name": "physics",
+      "children": [
+        {
+          "name": "DragForce",
+          "size": 1082
+        },
+        {
+          "name": "GravityForce",
+          "size": 1336
+        },
+        {
+          "name": "IForce",
+          "size": 319
+        },
+        {
+          "name": "NBodyForce",
+          "size": 10498
+        },
+        {
+          "name": "Particle",
+          "size": 2822
+        },
+        {
+          "name": "Simulation",
+          "size": 9983
+        },
+        {
+          "name": "Spring",
+          "size": 2213
+        },
+        {
+          "name": "SpringForce",
+          "size": 1681
+        }
+      ]
+    }
+  ]
+}

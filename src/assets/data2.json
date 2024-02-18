@@ -1,0 +1,105 @@
+{
+  "name": "Easing",
+  "children": [
+    {
+      "name": "animate",
+      "children": [
+        {
+          "name": "wefwef",
+          "size": 17010,
+          "color": "red"
+        },
+        {
+          "name": "fqwefqwef",
+          "size": 5842,
+          "color": "red"
+        },
+        {
+          "name": "fqwfefef",
+          "size": 1041,
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "name": "data",
+      "children": [
+        {
+          "name": "fefw",
+          "size": 1759,
+          "color": "blue"
+        },
+        {
+          "name": "fwfwf",
+          "size": 2165,
+          "color": "blue"
+        },
+        {
+          "name": "fefe",
+          "size": 586,
+          "color": "blue"
+        },
+        {
+          "name": "wfwwef",
+          "size": 3331,
+          "color": "blue"
+        },
+        {
+          "name": "fwefwefc",
+          "size": 772,
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "name": "display",
+      "children": [
+        {
+          "name": "fefe",
+          "size": 8833,
+          "color": "purple"
+        },
+        {
+          "name": "fef",
+          "size": 1732,
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "name": "physics",
+      "children": [
+        {
+          "name": "wfwef",
+          "size": 1082,
+          "color": "pink"
+        },
+        {
+          "name": "qwef",
+          "size": 1336,
+          "color": "pink"
+        },
+        {
+          "name": "ccca",
+          "size": 319,
+          "color": "pink"
+        },
+        {
+          "name": "cdcds",
+          "size": 10498,
+          "color": "pink"
+        },
+        {
+          "name": "axasx",
+          "size": 2822,
+          "color": "pink"
+        },
+        {
+          "name": "fwew",
+          "size": 9983,
+          "color": "pink"
+        }
+      ]
+    }
+  ]
+}
