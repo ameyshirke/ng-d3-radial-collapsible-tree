@@ -2,7 +2,7 @@
 D3 radial-collapsible-tree for Angular
 
 
-![Screenshot](https://raw.githubusercontent.com/ameyshirke/ng-d3-radial-collapsible-tree/main/src/assets/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/ameyshirke/ng-d3-radial-collapsible-tree/main/src/assets/screenshot.PNG)
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
