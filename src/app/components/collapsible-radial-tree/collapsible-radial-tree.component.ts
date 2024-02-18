@@ -1,4 +1,4 @@
-import {Component, ElementRef} from '@angular/core';
+import {Component, ElementRef, ViewChild} from '@angular/core';
 import * as d3 from 'd3';
 import datas from '../../../assets/datas.json';
 import data2 from '../../../assets/data2.json';
@@ -9,32 +9,37 @@ import data2 from '../../../assets/data2.json';
   styleUrls: ['./collapsible-radial-tree.component.scss']
 })
 export class CollapsibleRadialTreeComponent {
-  constructor(private elementRef: ElementRef) { }
+  // @ViewChild('treeContainer') treeContainer: ElementRef;
+
+  constructor(private treeContainer: ElementRef) {
+    // this.treeContainer = elementRef;
+  }
 
   ngOnInit(): void {
     this.drawRadialTree();
   }
 
   drawRadialTree() {
-    const width = 1000;
-    const height = 2000;
-    const radius = width / 2;
-
-    debugger
+    const width = this.treeContainer.nativeElement.offsetWidth; // Adjust width based on container size
+    const height = this.treeContainer.nativeElement.offsetHeight; // Adjust height based on container size
+    const radius = Math.min(width, height) / 2;
 
     let loadtest = true;
+
 
     const tree = (data: any) => d3.tree()
       .size([2 * Math.PI, radius])
       .separation((a, b) => (a.parent == b.parent ? 1 : 3) / a.depth)
       (d3.hierarchy(data));
 
-    const svg = d3.select(this.elementRef.nativeElement).select('div')
+    const svg = d3.select(this.treeContainer.nativeElement).select('div')
       .append('svg')
       .attr('width', width)
       .attr('height', height)
+      .attr('overflow','visible')
       .append('g')
-      .attr('transform', `translate(${width / 2},${height / 2})`);
+      .attr('transform', `translate(${width / 2},${height / 2})`)
+      .attr("preserveAspectRatio", "xMidYMid meet");
 
 
     const g = svg.append('g');
